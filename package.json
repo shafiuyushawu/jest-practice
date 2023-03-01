@@ -1,0 +1,23 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shafiuyushawu/testing-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shafiuyushawu/testing-practice/issues"
+  },
+  "homepage": "https://github.com/shafiuyushawu/testing-practice#readme",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
