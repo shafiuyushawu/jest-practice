@@ -82,7 +82,7 @@ To get the content of this project locally you need to run the following command
 
 1. Download the **Zip** file or clone the repo with:
 ```bash
-git clone https://github.com/shafiuyushawu/testing-practice
+git clone https://github.com/shafiuyushawu/jest-practice
 ```
 2. To access cloned directory run:
 ```bash
@@ -114,19 +114,8 @@ npm run watch
 ## Run Test for Linters
 
 For tracking linter errors locally you need to follow these steps:
-
-1. For tracking linter errors in HTML files run:
-```bash 
-npx hint .
-```
-
-2. For tracking linter errors in CSS or SASS files run:
-
-```bash
-npx stylelint "\*_/_.{css,scss}"
-```
-
-3. For tracking linter errors in JavaScript files run:
+``
+1. For tracking linter errors in JavaScript files run:
 
 ```bash
 npx eslint .
@@ -165,7 +154,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-[Kindly raise issue here](https://github.com/shafiuyushawu/testing-practice/issues)
+[Kindly raise issue here](https://github.com/shafiuyushawu/jest-practice/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
