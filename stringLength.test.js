@@ -1,4 +1,4 @@
-const { stringLength, stringReverse } = require('./stringLength')
+import { stringLength, stringReverse } from './modules/stringLength';
 
 
 describe('string length', () => {
@@ -10,6 +10,8 @@ describe('string length', () => {
     })
     test('return reverse of a screen', () => {
         expect(stringReverse('hello')).toMatch('olleh')
-        // expect(stringReverse('1234')).toBe('4321')
+        expect(stringReverse('1234')).toBe('4321')
+        expect(stringReverse('5678')).toBe('8765')
     })
 })
+

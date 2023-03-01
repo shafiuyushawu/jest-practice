@@ -8,4 +8,4 @@ const stringLength = (string) => {
 const stringReverse = (string) => {
     return string.split('').reverse().join('')
 }
-module.exports = stringLength, stringReverse
+module.exports = { stringLength, stringReverse }
